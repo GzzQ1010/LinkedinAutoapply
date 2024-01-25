@@ -1,0 +1,33 @@
+selenium: Selenium is a powerful tool for controlling a web browser through the program. It’s functional for all browsers, works on all major OS and its scripts are written in various languages i.e Python, Java, C#, etc1234.
+
+webdriver: This is a part of Selenium, which provides a way to control a browser by issuing commands to a server. The server finds the browser using the webdriver1234.
+
+selenium.webdriver.support.ui.WebDriverWait: This is used to halt the execution until the time the condition we are checking is true or maximum time has elapsed56.
+
+selenium.webdriver.common.by.By: This is used to identify the elements on the page. It provides methods to select elements using different selectors (like ID, Name, Class Name, etc)789.
+
+selenium.webdriver.support.expected_conditions as EC: This is used in conjunction with WebDriverWait to provide certain conditions to wait for before proceeding further with execution10111213.
+
+selenium.webdriver.chrome.options.DesiredCapabilities: This is used to set the properties of WebDriver, like browser name, platform name, etc14151617.
+
+selenium.webdriver.common.proxy.Proxy, ProxyType: These are used to set the proxy for WebDriver1819.
+
+selenium.webdriver.common.keys.Keys: This is used to emulate special keys on the keyboard such as ARROW_DOWN, ARROW_LEFT, ARROW_RIGHT, ARROW_UP, etc20212223.
+
+selenium.webdriver.chrome.options.Options: This is used to manipulate various properties of Chrome driver242526.
+
+selenium.webdriver.common.action_chains.ActionChains: This is used to automate low-level interactions such as mouse movements, mouse button actions, keypress, and context menu interactions27282930.
+
+webdriver_manager.chrome.ChromeDriverManager: This is used to manage the ChromeDriver, i.e., it can automatically download the driver binary and add it to your PATH313233.
+
+colorama: This is used to colorize terminal text31.
+
+time: This is a standard Python library for time-related functions.
+
+random: This is a standard Python library for generating random numbers.
+
+json: This is a standard Python library for working with JSON data.
+
+os: This is a standard Python library that provides a way of using operating system dependent functionality.
+
+pwinput: This is used to get password input from users, similar to the built-in input(), but the input is masked as asterisks or other characters for the sake of privacy.
